@@ -117,3 +117,6 @@ src/.vs/config/applicationhost.config
 
 # Localization
 Localization/
+
+# Cache
+/OrchardSkills.OrchardCore.OrchardCMS/wwwroot/is-cache
