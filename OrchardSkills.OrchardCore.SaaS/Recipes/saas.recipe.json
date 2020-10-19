@@ -29,6 +29,9 @@
         "SaaS",
         "OrchardCore.Users",
 
+        // Cookie Consent
+        "CookieConsent.OrchardCore",
+
         // Themes
         "TheTheme",
         "TheAdmin",

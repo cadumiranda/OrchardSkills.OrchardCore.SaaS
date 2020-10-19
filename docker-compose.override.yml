@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  orchardskills.orchardcore.orchardcms:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ASPNETCORE_URLS=http://+:80
+      - ORCHARD_APP_DATA=/app/App_Data
+      - SHOW_DEVELOPER_EXCEPTION="true"
+    ports:
+      - "80"
+      - "443"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro

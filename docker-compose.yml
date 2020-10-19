@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  orchardskills.orchardcore.orchardcms:
+    image: webhosting
+    build:
+      context: .
+      dockerfile: OrchardSkills.OrchardCore.OrchardCMS/Dockerfile
+    container_name: webhosting
